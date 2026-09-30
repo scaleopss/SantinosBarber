@@ -1,0 +1,32 @@
+export const adminNavigation = [
+  { label: "Dashboard", href: "/admin" },
+  { label: "Agendamentos", href: "/admin/agendamentos" },
+  { label: "Calendário", href: "/admin/calendario" },
+  { label: "Clientes", href: "/admin/clientes" },
+  { label: "Profissionais", href: "/admin/profissionais" },
+  { label: "Serviços", href: "/admin/servicos" },
+  { label: "Assinaturas", href: "/admin/assinaturas" },
+  { label: "Planos", href: "/admin/planos" },
+  { label: "Horários", href: "/admin/horarios" },
+  { label: "Bloqueios", href: "/admin/bloqueios" },
+  { label: "Galeria", href: "/admin/galeria" },
+  { label: "Avaliações", href: "/admin/avaliacoes" },
+  { label: "Conteúdo do site", href: "/admin/conteudo-do-site" },
+  { label: "Configurações", href: "/admin/configuracoes" },
+] as const;
+
+export const adminSections = {
+  agendamentos: { title: "Agendamentos", description: "Reservas registradas pelos clientes no site." },
+  calendario: { title: "Calendário", description: "Agenda organizada por data, com horários e profissionais." },
+  clientes: { title: "Clientes", description: "Clientes identificados pelos dados informados nos agendamentos." },
+  profissionais: { title: "Profissionais", description: "Equipe e reservas vinculadas a cada profissional." },
+  servicos: { title: "Serviços", description: "Procura por serviço com base nas reservas registradas." },
+  assinaturas: { title: "Assinaturas", description: "Gestão de assinaturas recorrentes." },
+  planos: { title: "Planos", description: "Planos apresentados no site e suas condições comerciais." },
+  horarios: { title: "Horários", description: "Horários definidos para receber agendamentos." },
+  bloqueios: { title: "Bloqueios", description: "Datas e horários indisponíveis para agendamento." },
+  galeria: { title: "Galeria", description: "Imagens exibidas nas páginas públicas da barbearia." },
+  avaliacoes: { title: "Avaliações", description: "Avaliações e comentários dos clientes." },
+  "conteudo-do-site": { title: "Conteúdo do site", description: "Conteúdos e informações exibidos no site público." },
+  configuracoes: { title: "Configurações", description: "Preferências e integrações da barbearia." },
+} as const;
